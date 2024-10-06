@@ -54,11 +54,11 @@
      ```
 4. **Démarrez l'application**:
 
-  - ### Frontend :
+   - ### Frontend :
    ```bash
    npm start
    ```
-  - ### Backend :
+   - ### Backend :
    ```bash
    python app.py
    ```
