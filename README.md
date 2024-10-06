@@ -5,13 +5,12 @@
 ---
 
 ## 📚 Table des matières
-- [Description](#description)
-- [Fonctionnalités](#fonctionnalités)
-- [Technologies utilisées](#technologies-utilisées)
-- [Installation](#installation)
-- [Utilisation](#utilisation)
-- [Contact](#contact)
-
+- [Description](#✨-Description)
+- [Fonctionnalités](#🔥-fonctionnalités)
+- [Technologies utilisées](#⚙️-technologies-utilisées)
+- [Installation](#📦-installation)
+- [Utilisation](#🚀-utilisation)
+- [Contact](#📞-contact)
 ---
 
 ## ✨ Description
