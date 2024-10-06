@@ -5,7 +5,7 @@
 ---
 
 ## 📚 Table des matières
-- [Description](#✨-Description)
+- [Description](#✨-description)
 - [Fonctionnalités](#🔥-fonctionnalités)
 - [Technologies utilisées](#⚙️-technologies-utilisées)
 - [Installation](#📦-installation)
