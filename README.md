@@ -42,23 +42,23 @@
     ```bash
     cd Nlp-recrutement
 3. **Installez les dépendances**:
-    - # Pour le frontend :
+    - ### Pour le frontend :
      ```bash
-     cd frontend
+     cd nlp
      npm install
      ```
-    - # Pour le backend :
+    - ### Pour le backend :
      ```bash
      cd backend
      pip install -r requirements.txt
      ```
 4. **Démarrez l'application**:
 
-   # Frontend :
+  - ### Frontend :
    ```bash
    npm start
    ```
-   # Backend :
+  - ### Backend :
    ```bash
    python app.py
    ```
