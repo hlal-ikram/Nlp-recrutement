@@ -1,0 +1,64 @@
+
+.profile-header {
+  display: flex;
+  align-items: last baseline;
+}
+
+.edit-button {
+  bottom: 30px; /* Adjusted for closer position */
+  right: 2px;
+  transform: translateX(-50%);
+  background: rgba(255, 255, 255, 0.9); /* Optional: light background */
+  border: none; /* Removes button borders */
+  padding: 4px 8px;
+  cursor: pointer;
+}
+
+.profile-picture-container {
+  position: relative; /* Important for absolute positioning of the button */
+  display: inline-block; /* Allows text to be aligned next to it */
+}
+
+.profile-picture {
+  border-radius: 50%; /* Makes the picture circular */
+  width: 200px; /* Adjust as needed */
+  height: 200px; /* Adjust as needed */
+  object-fit: cover; /* Ensures the image fits the circle without distortion */
+  border: 2px solid #ddd; 
+}
+
+
+
+.profile-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.info-text {
+  flex-grow: 1;
+}
+
+.edit-btn {
+  background-color: transparent;
+  border: none;
+  color: #29292a;
+  font-size: 20px;
+  cursor: pointer;
+  align-self: flex-end; /* Aligns the button to the right */
+  margin-top: auto; /* Pushes the button to the bottom */
+}
+
+.edit-btn:focus,
+.edit-btn:active {
+  background-color: transparent !important; /* Force the background to stay transparent */
+  color: #979ea3 !important; /* Keep the same color */
+  box-shadow: none; /* Remove the box shadow on click */
+  outline: none; /* Remove any outline on focus */
+}
+
+
+
+
+
+

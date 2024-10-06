@@ -1,0 +1,78 @@
+/* Style global pour la page */
+.test-results-page {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+  }
+  
+  /* Style pour chaque offre d'emploi */
+  .offer {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .offer h3 {
+    margin: 0 0 10px;
+    color: #333;
+  }
+  
+  .offer p {
+    margin: 0 0 10px;
+    color: #666;
+  }
+  
+  /* Style pour le bouton de consultation */
+  button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Style pour le tableau des résultats */
+  .results {
+    margin-top: 20px;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+  }
+  
+  table th, table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+  }
+  
+  table th {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  table tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  /* Style pour le message d'erreur */
+  .error-message {
+    color: red;
+    font-weight: bold;
+  }
+  
+  /* Style pour le message de chargement */
+  .loading-message {
+    color: #007bff;
+    font-weight: bold;
+  }
+  

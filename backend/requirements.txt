@@ -1,0 +1,6 @@
+Flask
+Flask-CORS
+pymongo
+pymongo flask-pymongo
+flask-cors
+Flask Flask-CORS pymongo

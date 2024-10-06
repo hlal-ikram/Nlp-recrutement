@@ -1,0 +1,36 @@
+.custom-card {
+    background: linear-gradient(135deg, #f8f9fa, #e9ecef);
+    border-radius: 15px;
+    padding: 20px;
+    transition: transform 0.2s;
+    margin: 40px auto; /* Ajustez cette valeur pour pousser la boîte verticalement */
+    width: 90%; /* Ajustez la largeur selon vos besoins */
+    max-width: 800px; /* Largeur maximale pour la carte */
+}
+
+.custom-card:hover {
+    transform: scale(1.02);
+}
+
+.custom-textarea {
+    border-radius: 10px;
+    border: 2px solid #007bff;
+    transition: border-color 0.3s;
+    min-height: 150px; /* Hauteur minimale pour le textarea */
+}
+
+.custom-textarea:focus {
+    border-color: #0056b3;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+.custom-button {
+    background: linear-gradient(45deg, #007bff, #0056b3);
+    border: none;
+    border-radius: 10px;
+    transition: background 0.3s;
+}
+
+.custom-button:hover {
+    background: linear-gradient(45deg, #0056b3, #003f7f);
+}
