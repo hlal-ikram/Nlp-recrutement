@@ -32,8 +32,8 @@
 
 
 ## ⚙️ Technologies utilisées
-- **Frontend** : React
-- **Backend** : Flask
+- **Frontend** : React, pour l'interface utilisateur.
+- **Backend** : Flask, pour la gestion des API et des services côté serveur.
 - **Base de données** : MongoDB
 - **NLP** : Utilisation de modèles NLP pour l'analyse des CVs et des offres.
   - **Encodage de texte** : **BERT** pour encoder les CVs et les offres d'emploi.
