@@ -21,16 +21,24 @@
 ## 🔥 Fonctionnalités
 - **Création d'offres d'emploi** : Les recruteurs peuvent créer des offres avec des détails comme la description, le salaire et les compétences requises.
 - **Soumission de CV** : Les candidats peuvent télécharger leur CV pour postuler aux offres.
-- **Calcul de similarité** : Le système évalue la similarité entre les CVs et les offres, affichant les résultats avec un score de compatibilité.
-- **Tests pour les candidats** : Les candidats peuvent passer des tests pour évaluer leurs compétences.
+- **Calcul de similarité** : 
+  - **Méthode** : Utilise le modèle **BERT** pour encoder le texte des CVs et des offres d'emploi, puis calcule la similarité cosinus.
+  - **Outil** : `sklearn` pour la similarité cosinus.
+- **Tests pour les candidats** : 
+  - **Méthode** : Génération de questions techniques en utilisant le modèle **Llama** pour formuler des questions basées sur les CVs et les descriptions de poste.
+  - **Outil** : API **Groq** pour générer des questions et des réponses.
 
 ---
+
 
 ## ⚙️ Technologies utilisées
 - **Frontend** : React
 - **Backend** : Flask
 - **Base de données** : MongoDB
 - **NLP** : Utilisation de modèles NLP pour l'analyse des CVs et des offres.
+  - **Encodage de texte** : **BERT** pour encoder les CVs et les offres d'emploi.
+  - **Extraction d'informations** : API **Groq** avec le modèle **Llama** pour parser les CVs et générer des questions.
+  - **Évaluation des réponses** : Calcul de la similarité cosinus pour évaluer les réponses des candidats par rapport aux réponses modèles.
 
 ---
 
